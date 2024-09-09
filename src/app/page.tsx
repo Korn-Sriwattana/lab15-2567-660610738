@@ -116,7 +116,7 @@ export default function Home() {
     if (form.values.plan === "full") price = 1500;
 
     //check discount here
-    if (form.values.hasCoupon === true && form.values.coupon==="CMU2023”") price *= 0.7;
+    if (form.values.hasCoupon === true && form.values.coupon==="CMU2023") price *= 0.7;
 
     return price;
   };
